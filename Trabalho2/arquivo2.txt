@@ -1,0 +1,7 @@
+  PID USER     PRI  NI S PSR %CPU %MEM COMMAND
+    1 root      19   0 S   0  0.0  0.0 /init
+    7 root      19   0 S   0  0.0  0.0 /init
+    8 jaderson  19   0 S   0  0.0  0.0 /bin/bash --login
+   35 root      19   0 S   0  0.3  0.0 /init
+   36 jaderson  19   0 S   0  2.3  0.0 /bin/bash --login
+   49 jaderson  19   0 R   0  0.0  0.0 ps -eo pid,user,pri,ni,s,psr,%cpu,%mem,command
